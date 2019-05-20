@@ -1,0 +1,18 @@
+<header class="Header" role="banner">
+  <div class="Header__inner">
+    <h1 class="Header__title"><img src="/assets/angular-logo.svg" width="30" alt="">Maltem E2E test</h1>
+  </div>
+</header>
+
+<div class="Container">
+  <aside class="Menu" role="complementary">
+    <nav class="Menu__list" role="navigation">
+      <a class="Menu__item" routerLinkActive="-active" routerLink="/counter">Counter</a>
+      <a class="Menu__item" routerLinkActive="-active" routerLink="/todos">Todo-list</a>
+    </nav>
+  </aside>
+
+  <main class="Main" role="main">
+    <router-outlet></router-outlet>
+  </main>
+</div>

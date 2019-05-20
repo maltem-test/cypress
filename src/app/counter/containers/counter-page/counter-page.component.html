@@ -1,0 +1,11 @@
+<section>
+  <h1 class="Heading -lv1">Counter</h1>
+
+  <div class="Card">
+    <app-counter
+      [counter]="counter$ | async"
+      (increment)="increment()"
+      (decrement)="decrement()"
+    ></app-counter>
+  </div>
+</section>
